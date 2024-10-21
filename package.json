@@ -1,0 +1,13 @@
+{
+  "name": "parent",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "install": "(cd child && npm install) && (cd ../project_links_false && npm install) && (cd ../project_links_true && npm install)",
+    "ls with links=false": "cd project_links_false && npm run ls",
+    "ls with links=true": "cd project_links_true && npm run ls"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": ""
+}

@@ -1,0 +1,19 @@
+{
+  "name": "project_links_false",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+     "ls": "npm ls --all"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": "",
+
+  "overrides": {
+   "@types/semver": "^7.x"
+  },
+  "dependencies": {
+    "@types/semver": "^7.x",
+    "child": "../child"
+  }
+}
